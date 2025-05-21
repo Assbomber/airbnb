@@ -44,6 +44,7 @@ function Header(props) {
 
             <div className="flex justify-center md:justify-end items-center text-gray-500 space-x-3 ">
                 <p className="hidden md:inline cursor-pointer">Become a host</p>
+                <p onClick={() => router.push('/cars')} className="hidden md:inline cursor-pointer hover:text-gray-900">Car Rentals</p>
                 <GlobeAltIcon className="w-5 cursor-pointer"/>
                 <div className="rounded-full border-gray-300 border-2 p-1 flex justify-center items-center space-x-1 cursor-pointer">
                     <MenuIcon className="w-5"/>
